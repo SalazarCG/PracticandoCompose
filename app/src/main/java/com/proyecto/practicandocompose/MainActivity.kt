@@ -1,6 +1,7 @@
 package com.proyecto.practicandocompose
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
@@ -27,6 +28,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             kotlin()
+            Log.d("TAG", "Esto es una prueba")
         }
     }
 }
