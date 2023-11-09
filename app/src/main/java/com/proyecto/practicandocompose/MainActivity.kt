@@ -79,6 +79,6 @@ fun prueba1(){
 
 @Composable
 fun pruebaGit1(){
-    println("Pasamos a inte")
+    println("Pasamos a certi")
 }
 
