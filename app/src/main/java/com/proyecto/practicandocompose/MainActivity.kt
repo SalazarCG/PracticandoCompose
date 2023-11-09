@@ -77,3 +77,8 @@ fun prueba1(){
     println("Prueba 1 de Git")
 }
 
+@Composable
+fun pruebaGit1(){
+    println("Git1 de practicas")
+}
+
