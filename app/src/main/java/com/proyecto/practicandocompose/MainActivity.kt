@@ -72,3 +72,8 @@ fun Greeting() {
     }
 }
 
+@Composable
+fun prueba1(){
+    println("Prueba 1 de Git")
+}
+
