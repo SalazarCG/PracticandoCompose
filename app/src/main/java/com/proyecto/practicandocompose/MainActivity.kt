@@ -79,6 +79,6 @@ fun prueba1(){
 
 @Composable
 fun pruebaGit1(){
-    println("Git1")
+    println("Pasamos a certificación")
 }
 
