@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            kotlin()
+            Inicio()
             Log.d("TAG", "Esto es una prueba")
         }
     }
@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
 
 
 @Composable
-fun kotlin() {
+fun Inicio() {
 
     val numero = 2
     Column {
@@ -51,38 +51,3 @@ fun kotlin() {
     }
 }
 
-
-@Composable
-fun Greeting() {
-
-    Row(modifier = Modifier.padding(20.dp)) {
-
-        Box(modifier = Modifier.fillMaxWidth()) {
-
-            Column {
-
-                Divider(Modifier.background(Color(0xFF030303)))
-
-
-
-                Divider(Modifier.background(Color(0xFF030303)))
-
-            }
-        }
-    }
-}
-
-@Composable
-fun prueba1(){
-    println("Prueba 1 de Git")
-}
-
-@Composable
-fun pruebaGit1(){
-    println("Git1")
-}
-
-@Composable
-fun pruebaIntegracion(){
-    println("Prueba para inegración")
-}
