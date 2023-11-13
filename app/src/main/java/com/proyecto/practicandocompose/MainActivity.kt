@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            Inicio()
+            Inicio1()
             Log.d("TAG", "Esto es una prueba")
         }
     }
@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
 
 
 @Composable
-fun Inicio() {
+fun Inicio1() {
 
     val numero = 2
     Column {
