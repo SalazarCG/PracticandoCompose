@@ -1,3 +1,2 @@
 # PracticandoCompose
-Prueba para el git
-Modificamos para prueba
+Empezamos desde el primer paso
