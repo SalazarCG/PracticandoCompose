@@ -82,3 +82,7 @@ fun pruebaGit1(){
     println("Pasamos a certi")
 }
 
+@Composable
+fun pruebaIntegracion(){
+    println("Prueba para inegración")
+}
